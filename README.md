@@ -15,7 +15,8 @@
 ```c
     map_t map = create_map(len_of_the_map);
 ```
-### Add an element to your map (if the element already exist or the ellement adress is NULL it return 1 or else it return 0)
+### Add an element to your map 
+(if the element already exist or the ellement adress is NULL it return 1 or else it return 0)
 
 ```c
     int my_age = 21;
@@ -26,7 +27,7 @@
 ### You can then Read the data
 
 ```c
-    int still_my_age = *get_elem(map, "my elem");
+    int still_my_age = *get_elem(map, "my age");
     
     printf("%d\n", still_my_age);
 
