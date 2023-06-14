@@ -27,7 +27,7 @@
 ### You can then Read the data
 
 ```c
-    int still_my_age = *get_elem(map, "my age");
+    int still_my_age = *(int *)get_elem(map, "my age");
     
     printf("%d\n", still_my_age);
 
